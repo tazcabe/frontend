@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Esto va a ser un blog en foundation</title>
+	<link rel="stylesheet" href="foundation/css/foundation.css" />
+    <script src="foundation/js/vendor/modernizr.js"></script>
+</head>
+<body>
+	<header class="row">
+		<h1>Esto es un blog basado en foundation</h1>
+		<nav class="top-bar" data-topbar>
+		  <ul class="title-area">
+		    <li class="name">
+		      <h1><a href="#">My Site</a></h1>
+		    </li>
+		     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+		    <li class="toggle-topbar menu-icon"><a href="#"><span>Mi Menú	</span></a></li>
+		  </ul>
+
+		  <section class="top-bar-section">
+		    <!-- Right Nav Section -->
+		    <ul class="right">
+		      <li class="active"><a href="#">Right Button Active</a></li>
+		      <li class="has-dropdown">
+		        <a href="#">Right Button Dropdown</a>
+		        <ul class="dropdown">
+		          <li><a href="#">First link in dropdown</a></li>
+		        </ul>
+		      </li>
+		    </ul>
+
+		    <!-- Left Nav Section -->
+		    <ul class="left">
+		      <li><a href="#">Left Nav Button</a></li>
+		    </ul>
+		  </section>
+		</nav>
+	</header>	
+	<section class="row">
+		<section class="small-12 medium-8 large-7 columns">
+			<article class="row panel">
+				<h2>Titulo del post</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, doloremque voluptatem id nisi laborum inventore dolorum distinctio assumenda consequatur cumque. Accusamus, ipsam similique obcaecati eaque veritatis impedit libero ex cumque.
+				</p>
+				<a href="" class="button radius round">Ir al Post</a>
+			</article>
+			<article class="row panel">
+				<h2>Titulo del post</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, rerum, suscipit ducimus amet vero quaerat pariatur sapiente iusto nostrum sed impedit soluta dolor quidem mollitia magni optio incidunt nisi voluptas.
+				</p>
+				<a href="" class="button  small radius round">Ir al Post</a>
+				<a href="" class="button medium">Ir al Post</a>
+				<a href="" class="button  large radius">Ir al Post</a>
+			</article>
+		</section>
+		<section class="small-12 medium-4 large-4 columns">
+			<section class="row" data-equalizer>
+				<article class="small-6 columns panel" data-equalizer-watch> 
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias rem beatae vitae ipsum nulla aliquid at tempore pariatur. Doloremque necessitatibus id facere ipsa provident libero odit ips.
+					</p>
+				</article>
+				<article class="small-6 columns panel" data-equalizer-watch>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, tempore, a nostrum mollitia vitae doloremque vero repellendus provident quiae dolorum a quod!
+					</p>
+				</article>
+			</section>
+			<section class="row" data-equalizer>
+				<article class="small-6 columns panel" data-equalizer-watch>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, labore iste amet velit quo quisquam rerum aut qui corporis facere culpa act deleniti inventore.
+					</p>
+				</article>
+				<article class="small-6 columns panel" data-equalizer-watch>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia aperiam quisquam architecto iste quasi dolores quibusdam. Illo, dum necessitatibus.
+					</p>
+				</article>
+			</section>				
+		</section>
+	</section>
+	<script src="foundation/js/vendor/jquery.js"></script>
+    <script src="foundation/js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+</body>
+</html>
